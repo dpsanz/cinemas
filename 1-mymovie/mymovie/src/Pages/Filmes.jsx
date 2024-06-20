@@ -17,22 +17,36 @@ useEffect( () => {
 
     return ( 
         <>
-        <h1>Filmes</h1>
-        <div className="listaFilmes grid grid-cols-3">
-    
+        <main className="bg-black">
 
-        {
-            filmes.map(filme =>(
-                <div className="card-filme" key={filme.id}>
-                <img src={`${urlImg}${filme.poster_path}`}/>
-                <h1>{filme.title}</h1>
-                <Link to={`${filme.id}`} className="text-purple-800">Saber Mais</Link>
+
+        <div className='flex flex-col items-center'>
+
+            <h1 className='text-3xl mt-3 mb-3 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-500 font-bold tracking-widest'>
+                FILMES
+            </h1>
+
+            <div className='w-full flex justify-center'>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                {
+                    filmes.map(filme => (
+                        <div className="card-filme flex flex-col items-center" key={filme.id}>
+                            <img className="self-center" src={`${urlImg}${filme.poster_path}`} alt={filme.title} />
+                            <h1 className="text-white text-center mt-2">{filme.title}</h1>
+                            <Link to={`${filme.id}`} className="text-purple-800 mt-1">Saber Mais</Link>
+                        </div>
+                    ))
+                }
                 </div>
-            ))
-        }
-        
+            </div>
+
         </div>
-        </>
+
+
+
+    </main>
+</>
+
      );
 }
 export default Filmes;
