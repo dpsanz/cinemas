@@ -1,43 +1,32 @@
 [
     {
-    "title": "Velozes & Furiosos 11",
-    "image": "",
-    "text": [
-    "Vin Diesel revela primeira foto no set de Velozes & Furiosos 11"
-    ]
+        "id": 1,
+        "titulo": "Novo trailer de filme blockbuster lançado",
+        "descricao": "Confira o novo trailer do filme que promete ser um sucesso de bilheteria.",
+        "dataPublicacao": "2023-05-15"
     },
-
     {
-    "title": "Johnny Wactor",
-    "image": "",
-    "text": [
-    "Morre aos 37 anos o ator Johnny Wactor, de Westworld, The OA e NCIS"
-    ]
+        "id": 2,
+        "titulo": "Diretor famoso anuncia nova produção",
+        "descricao": "Saiba mais sobre a nova produção do renomado diretor, que promete surpreender o público.",
+        "dataPublicacao": "2023-06-01"
     },
-
     {
-    "title": "The Boys",
-    "image": "",
-    "text": [
-    "The Boys - Criador diz que quinta temporada será insana"
-    ]
+        "id": 3,
+        "titulo": "Rumor de elenco para próxima grande franquia",
+        "descricao": "Descubra os rumores sobre o elenco da próxima grande franquia de filmes.",
+        "dataPublicacao": "2023-06-10"
     },
-
-
     {
-    "title": "Blade",
-    "image": "",
-    "text": [
-    "Blade pode ser filmado no Brasil e roteiro passará por reformulações, diz rumor"
-    ]
+        "id": 4,
+        "titulo": "Filme ganha prêmio internacional",
+        "descricao": "Saiba mais sobre o filme que ganhou destaque em um prestigioso festival internacional de cinema.",
+        "dataPublicacao": "2023-06-20"
     },
-
     {
-    "title": "Notícia sem título",
-    "image": "",
-    "text": [
-    "Notícia sem texto"
-    ]
+        "id": 5,
+        "titulo": "Novo projeto de animação em desenvolvimento",
+        "descricao": "Conheça o novo projeto de animação que está sendo desenvolvido por um grande estúdio.",
+        "dataPublicacao": "2023-06-25"
     }
-        
-    ]
+]
