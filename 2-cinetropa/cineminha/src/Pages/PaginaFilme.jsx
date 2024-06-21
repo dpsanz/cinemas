@@ -17,13 +17,15 @@ function PaginaFilme(){
         .then(response => response.json())
         .then(response => setFilme(response))
         .catch(erro => console.log(erro))
-    },[])
+    },[id])
 
     return(
         <>
-            <img src= {`${urlImg}${filme.backdrop_path}`} alt="" />
-            <h1>{filme.title}</h1>
-            <p>{filme.overview}</p>
+        <div className="flex flex-col">
+            <img className="" src= {`${urlImg}${filme.backdrop_path}`} alt="" />
+            <h1 className="text-white text-center" >{filme.title}</h1>
+            <p className="text-white text-center"> {filme.overview}</p>
+        </div>
         </>
         
 

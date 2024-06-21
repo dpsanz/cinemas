@@ -9,9 +9,12 @@ export default {
       colors: {
         'bgHeader': `#FABE3B`,
         'colorTxt': `#ffffff`,
-        'colorTitle': `#ffffff`
+        'colorTitle': `red`,
         
-      }
+      },
+      fontFamily: {
+        'pop': ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
